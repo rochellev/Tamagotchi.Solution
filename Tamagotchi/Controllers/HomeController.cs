@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
-using Project.Models;
+using Tamagotchi.Models;
 
-namespace Project.Controllers
+namespace Tamagotchi.Controllers
 {
     public class HomeController : Controller
     {

@@ -1,16 +1,16 @@
-# Project
+# Tamagotchi C# Web App
 ### By Rochelle Roberts
 -----
 
 ## Description
-* Project template for C# Web Apps
-* Unit testing set up too
+* This web app simutlates a Tamagotchi
 
 ## Technologies Used
 * C#
 * .NET
 * ASP.NET Core MVC
 * HTML
+* CSS
 * MSTest
 
 ## Installation and Run
@@ -18,8 +18,8 @@
 * Click on the local host link (Ctrl + click )
 
 ```sh
-$ git clone 
-$ cd
+$ git clone https://github.com/rochellev/Tamagotchi.Solution.git
+$ cd Tamagotchi.Solution/Tamagotchi
 $ dotnet restore
 $ dotnet run
 ```

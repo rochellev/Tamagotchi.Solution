@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Project.Models
+namespace Tamagotchi.Models
 {
   public class ProjectClass
   {
