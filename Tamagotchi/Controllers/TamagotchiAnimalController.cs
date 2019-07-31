@@ -17,5 +17,12 @@ namespace Tamagotchi.Controllers
             return View();
         }
 
+        [HttpPost("/tamagotchi")]
+        public ActionResult Create(string tamaName)
+        {
+            TamagotchiAnimal newTama = new TamagotchiAnimal(tamaName);
+            return RedirectToAction("Index");
+        }
+
     }
 }
