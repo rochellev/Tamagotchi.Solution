@@ -3,11 +3,9 @@ using Tamagotchi.Models;
 
 namespace Tamagotchi.Controllers
 {
-    public class HomeController : Controller
+    public class TamagotchiAnimalController : Controller
     {
-        // routes go here
-
-        [HttpGet("/")]
+        [HttpGet("/tamagotchi")]
         public ActionResult Index()
         {
             return View();
