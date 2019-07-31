@@ -11,5 +11,11 @@ namespace Tamagotchi.Controllers
             return View();
         }
 
+        [HttpGet("/tamagotchi/new")]
+        public ActionResult New()
+        {
+            return View();
+        }
+
     }
 }
