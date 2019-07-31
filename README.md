@@ -19,7 +19,7 @@
 
 ```sh
 $ git clone https://github.com/rochellev/Tamagotchi.Solution.git
-$ cd Tamagotchi.Solution/Tamagotchi
+$ cd .\Tamagotchi.Solution\Tamagotchi
 $ dotnet restore
 $ dotnet run
 ```
@@ -28,21 +28,8 @@ $ dotnet run
 
 | Behaviors       | Input          | Output      |
 | ---------------- |:------------:| :--------------:|
+| Create Tamagotchi from user input | user fills out form | a new tamagotchi made using input info |
+| Tamagotchi stats seen | view stats | view the happiness |
 
 
-## Project Directory
-1. Model Directory
-    * contains project's class files 
-    * this is where your classes go
-2. Project.csproj
-    * things needed to install 
-    * dotnet restore -- will install dependencies
-3. Views
-4. Controllers
 
-## Project.Tests Directory
-1. ModelTests Directory
-    * your tests will be here
-2. Project.Tests.csproj
-    * make sure update the ProjectReference !
-    * run dotnet restore to install the dependencies
